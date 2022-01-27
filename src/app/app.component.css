@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app-section {
+  margin: 50px 0;
+  border: 2px solid #030300;
+  border-radius: 8px;
+  box-shadow: 10px 5px 10px 7px #ababa9;
+}
+
+.game-cells {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app-btn {
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 10px 5px 10px 7px #ababa9;
+}
+
+.app-btn:hover {
+  background: black;
+  color: white;
+}
